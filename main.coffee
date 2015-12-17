@@ -1,3 +1,4 @@
+console.log "Coffee loaded"
 datatable_stylesheet = """
 <link href="http://cdn.datatables.net/1.10.10/css/jquery.dataTables.min.css" media="screen" rel="stylesheet">
 """
