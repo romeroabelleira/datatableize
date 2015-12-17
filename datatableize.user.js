@@ -6,7 +6,7 @@
 // @grant         GM_getResourceText
 // @require  http://coffeescript.org/extras/coffee-script.js
 // @resource      coffee https://raw.githubusercontent.com/romeroabelleira/datatableize/master/main.coffee
-// @version       1.0.1
+// @version       1.1
 // ==/UserScript==
 console.log("About to load coffee.");
 eval(CoffeeScript.compile(GM_getResourceText(coffee)));
