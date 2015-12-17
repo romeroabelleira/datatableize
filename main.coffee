@@ -8,4 +8,4 @@ document.head.insertAdjacentHTML('beforeend', datatable_stylesheet + datatable_j
 # TODO: pick table
 # TODO: run datable on table
 
-$('table').DataTable();
+$('table')[0].DataTable();
