@@ -4,7 +4,7 @@
 // @description   Datatableize Helvetas P2P
 // @include       https://p2p.getunik.net/organisations/helvetas/*
 // @grant         GM_getResourceText
-// @require  http://coffeescript.org/extras/coffee-script.js
+// @require       http://coffeescript.org/extras/coffee-script.js
 // @resource      coffee https://raw.githubusercontent.com/romeroabelleira/datatableize/master/main.coffee
 // @version       1.1
 // ==/UserScript==
