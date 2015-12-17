@@ -11,5 +11,5 @@ datatable_js = """
 console.log "stylesheet: #{datatable_js}"
 
 document.head.insertAdjacentHTML('beforeend', datatable_stylesheet + datatable_js)
-console.log $('#ddt-table-transactions')
+console.log "table: #{$('#ddt-table-transactions')}"
 $('#ddt-table-transactions').DataTable()
