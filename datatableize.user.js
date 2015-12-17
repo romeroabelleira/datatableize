@@ -5,7 +5,7 @@
 // @include       https://p2p.getunik.net/organisations/helvetas/*
 // @grant         GM_getResourceText
 // @resource      coffee https://raw.githubusercontent.com/romeroabelleira/datatableize/master/main.coffee
-// @version       1.0
+// @version       1.0.1
 // ==/UserScript==
 
-eval(CoffeeScript.compile(GM_getResourceText(resourceName)));
+eval(CoffeeScript.compile(GM_getResourceText(coffee)));
