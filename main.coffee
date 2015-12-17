@@ -6,6 +6,5 @@ datatable_js = """
 <script src="http://cdn.datatables.net/1.10.10/js/jquery.dataTables.min.js"></script>
 """
 
-$ ->
-  document.head.insertAdjacentHTML('beforeend', datatable_stylesheet + datatable_js)
-  $('#ddt-table-transactions').DataTable()
+document.head.insertAdjacentHTML('beforeend', datatable_stylesheet + datatable_js)
+$('#ddt-table-transactions').DataTable()

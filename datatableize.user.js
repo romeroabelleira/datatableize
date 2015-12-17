@@ -2,6 +2,7 @@
 // @name          Datatableize
 // @namespace     http://juan.one/userscripts
 // @description   Datatableize Helvetas P2P
+// @run-at        document-idle
 // @include       https://p2p.getunik.net/organisations/helvetas/*
 // @grant         GM_getResourceText
 // @require       http://coffeescript.org/extras/coffee-script.js
