@@ -7,4 +7,5 @@ datatable_js = """
 """
 
 document.head.insertAdjacentHTML('beforeend', datatable_stylesheet + datatable_js)
+console.log $('#ddt-table-transactions')
 $('#ddt-table-transactions').DataTable()
